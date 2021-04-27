@@ -1,0 +1,189 @@
+body {
+	margin: 0;
+	font-family: 'boiling', "Avenir";
+}
+
+#header {
+    position: absolute;
+    left: 459px;
+    top: 60px;
+}
+
+#banner {
+    width: 1440px;
+    height: 471px;
+    background:#E5EDF6;
+    position:absolute;
+    top:200px;
+    bottom:100px;
+    left:0;
+}
+
+
+#cakeButton {
+    position: absolute;
+    width: 98px;
+    height: 98px;
+    left: 700px;
+    top: 250px;
+    background-color: #d7d7d7;
+    border-radius: 50%;
+}
+
+#confettiButton {
+    position: absolute;
+    width: 98px;
+    height: 98px;
+    left: 850px;
+    top: 250px;
+    background-color: #d7d7d7;
+    border-radius: 50%;
+}
+
+#heartButton {
+    position: absolute;
+    width: 98px;
+    height: 98px;
+    left: 1000px;
+    top: 250px;
+    background-color: #d7d7d7;
+    border-radius: 50%;
+}
+
+#cakeButton:hover {
+    box-shadow: 3px 5px 5px #888888;
+    transition: all 1s ease;
+}
+
+#confettiButton:hover {
+    box-shadow: 3px 5px 5px #888888;
+    transition: all 1s ease;
+}
+
+#heartButton:hover {
+    box-shadow: 3px 5px 5px #888888;
+    transition: all 1s ease;
+}
+
+#cake {
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+
+
+.blurb {
+    position: absolute;
+    width: 481px;
+    height: 98px;
+    left: 700px;
+    top: 100px;
+    line-height: 49px;
+    text-align: left;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    color: #A49286;
+}
+
+#bestSellerTitle {
+    background-color: white;
+}
+
+#bestSellerTitle {
+    margin-left: 500px;
+    margin-top: 800px;
+    margin-bottom: 100px;
+    
+}
+
+#menu {
+    display: flex;
+	flex-direction: column;
+	justify-content:space-between;
+    margin: 80px;
+    
+}
+
+
+.image-card, .image-card-color-overlay {
+    width: 400px;
+    height: 400px;
+}
+
+.image-card {
+    display: inline-block;
+    float: left;
+    /*overflow: hidden;*/
+    margin-right: 100px;
+    position:relative;
+    left: 250px;
+    margin-bottom: 200px;
+
+}
+
+.image-card:last-child {
+    margin-right: 0;
+}
+
+.image-card img {
+    width: 100%;
+}
+
+.image-card-color-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: 0.3s;
+    background-color: #928B8B;
+}
+
+.image-card:hover .image-card-color-overlay {
+    opacity: 0.7;
+}
+
+.image-card:hover .image-card-text {
+    opacity: 1;
+}
+
+.image-card-text {
+    position: absolute;
+    top: 150px;
+    left: 120px;
+    width: 150px;
+    opacity: 1;
+    transition: 0.3s;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-family: Avenir;
+    opacity: 0;
+}
+
+#contact {
+    height: 150px;
+    position: relative;
+    padding: 100px;
+    background-color: ;
+}
+
+
+h4 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    color: #A49286;
+}
+
+h5 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    text-align: center;
+    color: #A49286;
+}
